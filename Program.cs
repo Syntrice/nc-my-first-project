@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, my name is: Sam");
+            string name = "Sam";
+            int age = 23;
+
+            Console.WriteLine("Hello, my name is: " + name);
+            Console.WriteLine("My age is: " + age);
         }
     }
 }
