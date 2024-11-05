@@ -1,6 +1,7 @@
 ﻿using NorthcodersMyFirstLibrary;
 using NorthcodersEvaluateNums;
 using System.Diagnostics.CodeAnalysis;
+using NorthcodersExternalClassLibrary;
 
 namespace NorthcodersMyFirstProject
 {
@@ -20,6 +21,8 @@ namespace NorthcodersMyFirstProject
 
             int sum = NorthcodersEvaluateNums.Class1.SumNums(3, 4);
             Console.WriteLine("Sum of 3 and 4 is: " + sum);
+
+            NorthcodersExternalClassLibrary.Class1.Hello();
         }
     }
 }

@@ -12,4 +12,10 @@
     <ProjectReference Include="..\NorthcodersMyFirstLibrary\NorthcodersMyFirstLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="NorthcodersExternalClassLibrary">
+      <HintPath>..\..\northcoders-external-class-library\NorthcodersExternalClassLibrary\bin\Release\net8.0\NorthcodersExternalClassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
