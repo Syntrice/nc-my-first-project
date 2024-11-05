@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NorthcodersMyFirstProject": {
+      "commandName": "Project",
+      "commandLineArgs": "Sam 23 Interstellar"
+    }
+  }
+}
