@@ -1,4 +1,6 @@
-﻿namespace NorthcodersMyFirstProject
+﻿using NorthcodersMyFirstLibrary;
+
+namespace NorthcodersMyFirstProject
 {
     internal class Program
     {
@@ -11,6 +13,8 @@
             Console.WriteLine("Hello, my name is: " + name);
             Console.WriteLine("My age is: " + age);
             Console.WriteLine("My favourite film is: " + favouriteFilm);
+
+            NorthcodersMyFirstLibrary.Class1.Hello();
         }
     }
 }

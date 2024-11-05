@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthcodersMyFirstLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cd148470a7144845d6c2954e3cb5d3d897bd54d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthcodersMyFirstLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthcodersMyFirstLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
