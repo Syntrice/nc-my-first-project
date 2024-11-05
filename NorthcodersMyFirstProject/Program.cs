@@ -1,4 +1,6 @@
 ﻿using NorthcodersMyFirstLibrary;
+using NorthcodersEvaluateNums;
+using System.Diagnostics.CodeAnalysis;
 
 namespace NorthcodersMyFirstProject
 {
@@ -15,6 +17,9 @@ namespace NorthcodersMyFirstProject
             Console.WriteLine("My favourite film is: " + favouriteFilm);
 
             NorthcodersMyFirstLibrary.Class1.Hello();
+
+            int sum = NorthcodersEvaluateNums.Class1.SumNums(3, 4);
+            Console.WriteLine("Sum of 3 and 4 is: " + sum);
         }
     }
 }

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NorthcodersEvaluateNums\NorthcodersEvaluateNums.csproj" />
     <ProjectReference Include="..\NorthcodersMyFirstLibrary\NorthcodersMyFirstLibrary.csproj" />
   </ItemGroup>
 
