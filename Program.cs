@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string name = "Sam";
-            int age = 23;
-            string favouriteFilm = "Interstellar";
-
+            string name = args[0];
+            int age = Int32.Parse(args[1]);
+            string favouriteFilm = args[2];
 
             Console.WriteLine("Hello, my name is: " + name);
             Console.WriteLine("My age is: " + age);
